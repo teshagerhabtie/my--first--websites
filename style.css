@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f2f4f8;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #080224;
+    padding: 30px 0;
+
+}
+
+.media {
+    display: block;
+    margin: 3px;
+    padding: 2px;
+
+
+}
+
+.media .social-media {
+    text-align: center;
+    padding: 3px;
+    background-color: #e0e4e8;
+    margin-top: 3px;
+
+}
+
+.media .social-media a {
+    padding: 4px;
+
+}
+
+.media .profile {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.media .profile img {
+    width: 125px;
+    height: 125px;
+    border: 4px solid rgb(214, 212, 208);
+    border-radius: 50%;
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+
+}
+
+.wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a fa-solid {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background: #594f8d;
+
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+
+}
+
+.wrapper .main-content {
+    width: 100%;
+    margin-left: 200px;
+}
+
+
+.wrapper .main-content .info .about {
+    margin-top: 10px;
+}
+
+.wrapper .main-content .info .home-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("ash-edmonds-Koxa-GX_5zs-unsplash (1).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.wrapper .main-content .info .home-page .inside {
+    position: relative;
+    top: 33%;
+    left: 30%;
+    color: rgb(3, 5, 17);
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.about {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.about .about-d {
+    margin: 7px;
+}
+
+.about .second-picture {
+    margin: 15px;
+}
+
+
+
+.about .second-picture img {
+    width: 250px;
+    height: 330px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.about .second-picture .list-di {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about .second-picture .list-di .list-dive {
+    margin: 15;
+
+}
+
+.about .skill div {
+    width: 265px;
+    background-color: #2904e0;
+    display: inline-block;
+    margin: 6px;
+    padding-bottom: 20px;
+    height: 15px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.resume {
+    margin-top: 20;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.resume .dounlod-view {
+    background-color: #bdb8d7;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.resume .dounlod-view p {
+    padding: 7px;
+}
+
+.resume .dounlod-view button:hover {
+    color: #2904e0;
+}
+
+.resume .dounlod-view button {
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    margin: 5%;
+    background-color: #080224;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.resume .sum-pro {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+.resume .sum-pro .summery {
+    width: 50%;
+}
+
+.resume .sum-pro .profession {
+    width: 50%;
+}
+
+
+.portifolio {
+    margin: 6px;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+}
+
+.portifolio .project-imge {
+    margin: 6px;
+    padding: 10px;
+}
+
+.portifolio .project-imge .project-first {
+    display: inline;
+}
+
+.portifolio .project-imge .project-second {
+    display: inline;
+}
+
+.portifolio .project-imge .project-second a img {
+
+    width: 360px;
+    height: 280px;
+}
+
+.portifolio .project-imge .project-first a img {
+    width: 360px;
+    height: 280px;
+
+}
+
+.service {
+    width: 100%;
+    height: 100vh;
+    padding: 7px;
+    margin: 6px;
+}
+
+.service .lists-first {
+    display: flex;
+    flex-direction: row;
+}
+
+.service .lists-first div {
+    padding: 4px;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.service .lists-second {
+    display: flex;
+    flex-direction: row;
+}
+
+.service .lists-second div {
+    padding: 4px;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.spetial-thanks {
+    padding: 7px;
+    margin: 5px;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+
+}
+
+.spetial-thanks div img {
+    width: 575px;
+}
+
+.spetial-thanks img {
+
+    width: 100%;
+    height: 100vh;
+
+}
